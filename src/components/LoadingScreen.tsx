@@ -12,7 +12,7 @@ const LoadingScreen = ({ progress }: LoadingScreenProps) => {
       <div className="text-center">
         <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }} className="mb-8">
           <h1 className="text-6xl font-bold text-white mb-4">Vishal</h1>
-          <p className="text-xl text-blue-300"> DevOps & Cloud Engineer</p>
+          <p className="text-l text-blue-300"> DevOps & Cloud Engineer</p>
         </motion.div>
 
         <div className="w-80 h-2 bg-gray-700 rounded-full overflow-hidden">
